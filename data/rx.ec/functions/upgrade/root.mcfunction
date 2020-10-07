@@ -28,7 +28,6 @@ execute if score $shulker rx.temp matches 1.. run data modify storage rx:temp ec
 execute if score $shulker rx.temp matches 1.. run data remove storage rx:temp ec.upgrade.tag.BlockEntityTag.Items[{tag:{rx:{ec:{}}}}]
 execute if score $shulker rx.temp matches 1.. run loot replace entity @s enderchest.0 mine -30000000 0 1602 air{drop_contents:1b}
 
-
 data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
 data remove storage rx:temp ec.upgrade.tag.display
 

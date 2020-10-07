@@ -10,6 +10,7 @@ data modify storage rx:temp ec.test set from storage rx:io playerdb.player.data.
 # save test count + remove
 execute store result score $test.count rx.temp run data get storage rx:temp ec.test.item.Count
 data remove storage rx:temp ec.test.item.Count
+data modify storage rx:temp ec.test.item.tag.rx.ec.spawned set value 1b
 
 # perform match: $match = 0 is success, $match = 1 is failure
 execute store result score $match rx.temp run data modify storage rx:temp ec.test.item set from storage rx:temp ec.upgrade
@@ -29,4 +30,4 @@ execute if score $match rx.temp matches ..0 run scoreboard players operation $co
 # success!
 execute if score $match rx.temp matches ..0 run scoreboard players set $success rx.temp 1
 
-tellraw rx97 ["HI: ", {"score": {"name": "$list", "objective":"rx.temp"},"color":"gold"}, " ", {"score": {"name": "$match", "objective":"rx.temp"}}]
+# tellraw rx97 ["HI: ", {"score": {"name": "$list", "objective":"rx.temp"},"color":"gold"}, " ", {"score": {"name": "$match", "objective":"rx.temp"}}]

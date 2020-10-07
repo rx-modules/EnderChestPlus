@@ -12,15 +12,15 @@ data modify storage rx:io playerdb.player.data.rx.ec.upgrade.items append value 
 data modify storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item set from entity @e[type=item,nbt={Item:{tag:{rx:{ec:{spawned:1b}}}}},limit=1,sort=nearest,x=-30000000,y=60,z=1602] Item
 data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.Slot
 data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.display
-data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec.spawned
+# data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec.spawned
 
-# remove the spawned:1b nbt tag weirdly
-execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec
-execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec
-execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx
-execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx
-execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag
-execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag
+# # remove the spawned:1b nbt tag weirdly
+# execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec
+# execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx.ec
+# execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx
+# execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.rx
+# execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag
+# execute if score $count rx.temp matches ..0 run data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag
 
 # count item stack count
 execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.Count

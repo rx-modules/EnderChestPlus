@@ -12,6 +12,7 @@ data modify storage rx:temp ec.player.EnderItems set from entity @s EnderItems
 scoreboard players set $shift rx.temp 0
 scoreboard players set $click rx.temp 0
 scoreboard players set $success rx.temp 0
+scoreboard players set $shulker rx.temp 0
 scoreboard players operation $old.page rx.temp = @s rx.ec.currPage
 
 # capture items that are clicked upon gui item
@@ -55,10 +56,12 @@ execute if data storage rx:temp ec.items[] run data modify block -30000000 0 160
 execute if data storage rx:temp ec.items[] run loot give @s mine -30000000 0 1602 air{drop_contents:1b}
 
 # debug
-tellraw rx97 [{"score":{"name":"@s", "objective":"rx.ec.currPage"},"color":"gold"}, "/", {"score":{"name":"@s", "objective":"rx.ec.maxPage"},"color":"gold"}, " ", {"score":{"name":"$old.page", "objective":"rx.temp"}}]
-tellraw rx97 [{"score":{"name":"$shift", "objective":"rx.temp"},"color":"gold"}, " ", {"score":{"name":"$click", "objective":"rx.temp"}}, "\n"]
+# tellraw rx97 [{"score":{"name":"@s", "objective":"rx.ec.currPage"},"color":"gold"}, "/", {"score":{"name":"@s", "objective":"rx.ec.maxPage"},"color":"gold"}, " ", {"score":{"name":"$old.page", "objective":"rx.temp"}}]
+# tellraw rx97 [{"score":{"name":"$shift", "objective":"rx.temp"},"color":"gold"}, " ", {"score":{"name":"$click", "objective":"rx.temp"}}, "\n"]
 
 # audiovisual
 execute if score @s rx.ec.currPage > $old.page rx.temp at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1.5
 execute if score @s rx.ec.currPage < $old.page rx.temp at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 0.7
-execute if score @s rx.ec.currPage = $old.page rx.temp if score $success rx.temp matches 0 at @s run playsound minecraft:item.shield.block master @s ~ ~ ~ 0.7 2
+execute if score @s rx.ec.currPage = $old.page rx.temp if score $success rx.temp matches 0 if score $shulker rx.temp matches 0 at @s run playsound minecraft:item.shield.block master @s ~ ~ ~ 0.7 2
+execute if score @s rx.ec.currPage = $old.page rx.temp if score $shulker rx.temp matches 1.. at @s run playsound minecraft:block.barrel.close master @s ~ ~ ~ 0.75 1.5
+execute if score @s rx.ec.currPage = $old.page rx.temp if score $shulker rx.temp matches 1.. at @s run playsound minecraft:block.barrel.open master @s ~ ~ ~ 0.6 2
