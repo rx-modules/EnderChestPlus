@@ -3,4 +3,4 @@
 Upgrade your enderchests allowing for almost **infinite** storage!
 
 
-Quick Preview: ![preview](gifs/enderchest+preview)
+Quick Preview: ![preview](gifs/enderchest+preview.gif)
