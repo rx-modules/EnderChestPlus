@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": ["rx.ec:elder_essence"],
+    "function": "rx.ec:revoke"
+  }
+}

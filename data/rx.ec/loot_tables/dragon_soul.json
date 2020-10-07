@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_breath",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Dragon's Soul",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "Used in upgrading your enderchest",
+									"color": "gray"
+								},
+								{
+									"text": "From EnderChests+",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}], HideFlags:1, rx:{ec:{item:'dragon soul'}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

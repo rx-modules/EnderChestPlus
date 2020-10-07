@@ -1,0 +1,138 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "binomial",
+								"n": 60,
+								"p": 0.75
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{rx:{ec:{spawned:1b}}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_breath",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "binomial",
+								"n": 60,
+								"p": 0.65
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{rx:{ec:{spawned:1b}}}"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": {
+							"min": 3,
+							"max": 4
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_breath",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Dragon's Soul",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "Used in upgrading your enderchest",
+									"color": "gray"
+								},
+								{
+									"text": "From EnderChests+",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}], HideFlags:1, rx:{ec:{spawned:1b,item:'dragon soul'}}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_shard",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Elder Essence",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "Used in upgrading your enderchest",
+									"color": "gray"
+								},
+								{
+									"text": "From EnderChests+",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}], HideFlags:1, rx:{ec:{spawned:1b,item:'elder essence'}}}"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": {
+							"min": 5,
+							"max": 100
+						}
+					}
+				}
+			]
+		}
+	]
+}
