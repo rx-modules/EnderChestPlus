@@ -7,8 +7,7 @@
 data remove storage rx:temp ec
 
 # copy player to storage for fast nbt
-data modify storage rx:temp ec.player.Inventory set from entity @s Inventory
-data modify storage rx:temp ec.player.EnderItems set from entity @s EnderItems
+data modify storage rx:temp ec.player set from entity @s
 scoreboard players set $shift rx.temp 0
 scoreboard players set $click rx.temp 0
 scoreboard players set $success rx.temp 0

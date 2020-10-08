@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:material"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:base"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+								{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:augment"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": {
+							"min": 3,
+							"max": 1000000
+						}
+					}
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "set_nbt",
+			"tag": "{rx:{ec:{spawned:1b}}}"
+		}
+	]
+}

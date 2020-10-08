@@ -1,4 +1,5 @@
 {
+	"type": "minecraft:fishing",
 	"pools": [
 		{
 			"rolls": 1,
@@ -8,34 +9,80 @@
 					"name": "minecraft:ender_eye",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "binomial",
-								"n": 60,
-								"p": 0.75
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:aqua_affinity",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 10,
+								"probability": 0.65
 							}
-						},
-						{
-							"function": "set_nbt",
-							"tag": "{rx:{ec:{spawned:1b}}}"
 						}
 					]
-				},
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": 2
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder",
+					"functions": [
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:aqua_affinity",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 40,
+								"probability": 0.50
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": 3
+					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:dragon_breath",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "binomial",
-								"n": 60,
-								"p": 0.65
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:aqua_affinity",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 5,
+								"probability": 1.00
 							}
 						},
 						{
-							"function": "set_nbt",
-							"tag": "{rx:{ec:{spawned:1b}}}"
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:aqua_affinity",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 5,
+								"probability": 1.00
+							}
 						}
 					]
 				}
@@ -46,8 +93,8 @@
 					"entity": "this",
 					"scores": {
 						"rx.ec.maxPage": {
-							"min": 3,
-							"max": 4
+							"min": 4,
+							"max": 5
 						}
 					}
 				}
@@ -61,64 +108,12 @@
 					"name": "minecraft:nether_star"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:dragon_breath",
-					"functions": [
-						{
-							"function": "set_name",
-							"name": {
-								"text": "Dragon's Soul",
-								"italic": false
-							}
-						},
-						{
-							"function": "set_lore",
-							"lore": [
-								{
-									"text": "Used in upgrading your enderchest",
-									"color": "gray"
-								},
-								{
-									"text": "From EnderChests+",
-									"color": "gray"
-								}
-							]
-						},
-						{
-							"function": "set_nbt",
-							"tag": "{Enchantments:[{}], HideFlags:1, rx:{ec:{spawned:1b,item:'dragon soul'}}}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:dragon_soul"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:prismarine_shard",
-					"functions": [
-						{
-							"function": "set_name",
-							"name": {
-								"text": "Elder Essence",
-								"italic": false
-							}
-						},
-						{
-							"function": "set_lore",
-							"lore": [
-								{
-									"text": "Used in upgrading your enderchest",
-									"color": "gray"
-								},
-								{
-									"text": "From EnderChests+",
-									"color": "gray"
-								}
-							]
-						},
-						{
-							"function": "set_nbt",
-							"tag": "{Enchantments:[{}], HideFlags:1, rx:{ec:{spawned:1b,item:'elder essence'}}}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:elder_essence"
 				}
 			],
 			"conditions": [
@@ -127,8 +122,66 @@
 					"entity": "this",
 					"scores": {
 						"rx.ec.maxPage": {
-							"min": 5,
-							"max": 100
+							"min": 6,
+							"max": 15
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:dragon_soul"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:elder_essence"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": {
+							"min": 16,
+							"max": 25
+						}
+					}
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:dragon_soul"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rx.ec:elder_essence"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"rx.ec.maxPage": {
+							"min": 26,
+							"max": 100000
 						}
 					}
 				}
