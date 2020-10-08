@@ -10,6 +10,8 @@ data remove storage rx:temp ec.upgrade.Slot
 
 #> $shulker will be set to 0 if there is no shulkerbox set
 scoreboard players set $shulker rx.temp 1
+
+execute store success score $book rx.temp if data storage rx:temp ec.upgrade{id:"minecraft:book"}
 execute unless data storage rx:temp ec.upgrade{id:"minecraft:white_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:orange_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:magenta_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:light_blue_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:yellow_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:lime_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:pink_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:gray_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:light_gray_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:cyan_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:purple_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:blue_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:brown_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:green_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:red_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:black_shulker_box"} unless data storage rx:temp ec.upgrade{id:"minecraft:shulker_box"} run scoreboard players set $shulker rx.temp 0
 
 #> if shulker, swap contents w/ current page, overflow items back to inv
@@ -28,10 +30,15 @@ execute if score $shulker rx.temp matches 1.. run data modify storage rx:temp ec
 execute if score $shulker rx.temp matches 1.. run data remove storage rx:temp ec.upgrade.tag.BlockEntityTag.Items[{tag:{rx:{ec:{}}}}]
 execute if score $shulker rx.temp matches 1.. run loot replace entity @s enderchest.0 mine -30000000 0 1602 air{drop_contents:1b}
 
-data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
-data remove storage rx:temp ec.upgrade.tag.display
+
+#> Transform into manual
+execute if score $book rx.temp matches 1.. run function rx.ec:manual
+
+#> Return items unless book
+execute if score $book rx.temp matches ..0 run data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
+execute if score $book rx.temp matches ..0 run data remove storage rx:temp ec.upgrade.tag.display
 
 #> Test for upgrade items
-execute if score $shulker rx.temp matches ..0 run function rx.ec:upgrade/test
+execute if score $shulker rx.temp matches ..0 if score $book rx.temp matches ..0 run function rx.ec:upgrade/test
 
 function rx.playerdb:api/save_self
