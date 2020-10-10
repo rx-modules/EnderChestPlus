@@ -4,8 +4,7 @@
 #> Creates Objs. Called from Lantern Load
 
 # load
-scoreboard objectives add rx.mods dummy
-scoreboard players set EnderChest+ rx.mods 1
+scoreboard players set EnderChest+ load 1
 
 # objectives
 scoreboard objectives add rx.ec.headDrop minecraft.dropped:minecraft.player_head
