@@ -21,7 +21,7 @@ execute if score $match rx.temp matches ..0 if data storage rx:temp ec.test{comp
 
 # fully matched!
 execute if score $match rx.temp matches ..0 run data modify storage rx:io playerdb.player.data.rx.ec.upgrade.items[0].completed set value 1b
-execute if score $match rx.temp matches ..0 run data modify block -30000000 0 1603 Text1 set value '{"storage": "rx:io", "nbt": "playerdb.player.data.rx.ec.upgrade.items[0].lore", "color": "green", "strikethrough": true, "interpret": true, "italic": true}'
+execute if score $match rx.temp matches ..0 run data modify block -30000000 0 1603 Text1 set value '{"storage": "rx:io", "nbt": "playerdb.player.data.rx.ec.upgrade.items[0].lore", "color": "#9820b6", "strikethrough": true, "interpret": true, "italic": true}'
 execute if score $match rx.temp matches ..0 run data modify storage rx:io playerdb.player.data.rx.ec.upgrade.items[0].lore set from block -30000000 0 1603 Text1
 
 # deduct resource count

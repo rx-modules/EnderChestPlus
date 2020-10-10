@@ -61,6 +61,6 @@ execute if data storage rx:temp ec.items[] run loot give @s mine -30000000 0 160
 # audiovisual
 execute if score @s rx.ec.currPage > $old.page rx.temp at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 1.5
 execute if score @s rx.ec.currPage < $old.page rx.temp at @s run playsound minecraft:entity.item.pickup master @s ~ ~ ~ 1 0.7
-execute if score @s rx.ec.currPage = $old.page rx.temp if score $success rx.temp matches 0 if score $shulker rx.temp matches 0 at @s run playsound minecraft:item.shield.block master @s ~ ~ ~ 0.7 2
+execute if score @s rx.ec.currPage = $old.page rx.temp if score $success rx.temp matches 0 if score $shulker rx.temp matches ..0 at @s run playsound minecraft:item.shield.block master @s ~ ~ ~ 0.7 2
 execute if score @s rx.ec.currPage = $old.page rx.temp if score $shulker rx.temp matches 1.. at @s run playsound minecraft:block.barrel.close master @s ~ ~ ~ 0.75 1.5
 execute if score @s rx.ec.currPage = $old.page rx.temp if score $shulker rx.temp matches 1.. at @s run playsound minecraft:block.barrel.open master @s ~ ~ ~ 0.6 2
