@@ -1,26 +1,12 @@
 # By: rx97
-# 4 Oct 2020
+# 10 Oct 2020
 # 
-#> Creates Objs. Called from Lantern Load
+#> Check for dependancies before loading
+#> Thanks to gm4 for help
 
-# load
-scoreboard players set EnderChest+ load 1
+execute if score PlayerDB load matches 1.. run scoreboard players set EnderChest+ load 1
 
-# objectives
-scoreboard objectives add rx.ec.headDrop minecraft.dropped:minecraft.player_head
-scoreboard objectives add rx.ec.openChest minecraft.custom:open_enderchest
-scoreboard objectives add rx.ec.currPage dummy
-scoreboard objectives add rx.ec.maxPage dummy
-
-# fake players
-scoreboard players set $64 rx.int 64
-
-# chk for PlayerDB but output msg if @a
-schedule function rx.ec:check 10t
-
-##> from phi.core
-forceload remove -30000000 1600
-forceload add -30000000 1600
-execute unless block -30000000 0 1602 minecraft:yellow_shulker_box run setblock -30000000 0 1602 minecraft:yellow_shulker_box
-execute unless block -30000000 0 1603 minecraft:oak_wall_sign run setblock -30000000 0 1603 minecraft:oak_wall_sign[facing=south]
-fill -30000000 1 1600 -30000000 1 1615 minecraft:bedrock
+execute if score EnderChest+ load matches 1.. run tellraw @a[tag=rx.admin] [{"text":"E","color":"#661192"},{"text":"n","color":"#841aa7"},{"text":"d","color":"#a223bd"},{"text":"e","color":"#c12cd2"},{"text":"r","color":"#df35e8"},{"text":"C","color":"light_purple"},{"text":"h","color":"#e037ef"},{"text":"e","color":"#c32fe1"},{"text":"s","color":"#a627d2"},{"text":"t","color":"#891fc4"},{"text":"+","color":"#6c17b6"},{"text":" Loaded"}]
+execute if score EnderChest+ load matches 1.. run function rx.ec:init
+execute unless score EnderChest+ load matches 1.. run schedule clear rx.ec:tick
+execute unless score EnderChest+ load matches 1.. run tellraw @a [{"text":"E","color":"#661192","clickEvent":{"action":"open_url","value":"https://github.com/RitikShah/MC-PlayerDB/releases"},"hoverEvent":{"action":"show_text","value":"Click!"}},{"text":"n","color":"#841aa7"},{"text":"d","color":"#a223bd"},{"text":"e","color":"#c12cd2"},{"text":"r","color":"#df35e8"},{"text":"C","color":"light_purple"},{"text":"h","color":"#e037ef"},{"text":"e","color":"#c32fe1"},{"text":"s","color":"#a627d2"},{"text":"t","color":"#891fc4"},{"text":"+","color":"#6c17b6"},{"text":" Warning","color":"red"},{"text":": PlayerDB is not installed. ","color":"gray"},{"text":"Please grab the latest release by clicking this text. ","color":"gray"},{"text":"Install PlayerDB and run `/reload`.","color":"gray"}]
