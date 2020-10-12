@@ -31,11 +31,11 @@ execute if data storage rx:temp ec.player.Inventory[{tag:{rx:{ec:{action:'upgrad
 execute if data storage rx:temp ec.player.Inventory[{tag:{rx:{ec:{action:'down'}}}}] run scoreboard players set $shift rx.temp 1
 
 # if we didn't shift click, we can clear for normal clicking
-execute store result score $cond rx.temp run clear @s #rx:all{rx:{ec:{action:'up'}}} 0
+execute store result score $cond rx.temp run clear @s minecraft:player_head{rx:{ec:{action:'up'}}} 0
 execute if score $cond rx.temp matches 1.. run scoreboard players set $click rx.temp -1
-execute store result score $cond rx.temp run clear @s #rx:all{rx:{ec:{action:'upgrade'}}} 0
+execute store result score $cond rx.temp run clear @s minecraft:player_head{rx:{ec:{action:'upgrade'}}} 0
 execute if score $cond rx.temp matches 1.. run scoreboard players set $click rx.temp 10
-execute store result score $cond rx.temp run clear @s #rx:all{rx:{ec:{action:'down'}}} 0
+execute store result score $cond rx.temp run clear @s minecraft:player_head{rx:{ec:{action:'down'}}} 0
 execute if score $cond rx.temp matches 1.. run scoreboard players set $click rx.temp 1
 
 # branch out :D
