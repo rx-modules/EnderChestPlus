@@ -4,7 +4,7 @@
 #> schedule tick loop
 
 #> player tick
-execute as @a run function rx.ec:player
+execute in minecraft:overworld as @a run function rx.ec:player
 
 #> kill thrown GUI items
 kill @e[type=item,nbt={Item:{tag:{rx:{ec:{gui:1b}}}}}]

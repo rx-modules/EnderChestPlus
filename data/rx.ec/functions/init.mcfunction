@@ -3,9 +3,6 @@
 # 
 #> Creates Objs. Called from Lantern Load
 
-# load
-scoreboard players set EnderChest+ load 1
-
 # objectives
 scoreboard objectives add rx.ec.headDrop minecraft.dropped:minecraft.player_head
 scoreboard objectives add rx.ec.openChest minecraft.custom:open_enderchest

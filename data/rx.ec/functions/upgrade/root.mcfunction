@@ -38,13 +38,13 @@ execute if score $shulker rx.temp matches 1.. run data modify storage rx:temp ec
 execute if score $shulker rx.temp matches 1.. run data remove storage rx:temp ec.upgrade.tag.BlockEntityTag.Items[{tag:{rx:{ec:{}}}}]
 execute if score $shulker rx.temp matches 1.. run loot replace entity @s enderchest.0 mine -30000000 0 1602 air{drop_contents:1b}
 
-
 #> Transform into manual
 execute if score $book rx.temp matches 1.. run function rx.ec:manual
 
 #> Return items unless book
 execute if score $book rx.temp matches ..0 run data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
 execute if score $book rx.temp matches ..0 run data remove storage rx:temp ec.upgrade.tag.display
+execute if score $book rx.temp matches ..0 run data remove storage rx:temp ec.upgrade.tag.SkullOwner
 
 #> Test for upgrade items
 execute if score $shulker rx.temp matches 0 if score $book rx.temp matches ..0 run function rx.ec:upgrade/test

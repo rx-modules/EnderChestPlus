@@ -6,8 +6,8 @@
 
 function rx.playerdb:api/get_self
 scoreboard players set $loop rx.temp 0
-function rx.ec:upgrade/gen
-function rx.ec:gui/fix
+execute in minecraft:overworld run function rx.ec:upgrade/gen
+execute in minecraft:overworld run function rx.ec:gui/fix
 function rx.playerdb:api/save_self
 
 # audiovisual
