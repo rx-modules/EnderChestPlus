@@ -40,11 +40,12 @@ execute if score $shulker rx.temp matches 1.. run loot replace entity @s enderch
 
 #> Transform into manual
 execute if score $book rx.temp matches 1.. run function rx.ec:manual
+execute if score $book rx.temp matches 1.. store result storage rx:temp ec.upgrade.Count byte 1 run data get storage rx:temp ec.upgrade.Count 0.9999999999
 
-#> Return items unless book
-execute if score $book rx.temp matches ..0 run data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
-execute if score $book rx.temp matches ..0 run data remove storage rx:temp ec.upgrade.tag.display
-execute if score $book rx.temp matches ..0 run data remove storage rx:temp ec.upgrade.tag.SkullOwner
+#> Return items
+data modify storage rx:temp ec.items append from storage rx:temp ec.upgrade
+data remove storage rx:temp ec.upgrade.tag.display
+data remove storage rx:temp ec.upgrade.tag.SkullOwner
 
 #> Test for upgrade items
 execute if score $shulker rx.temp matches 0 if score $book rx.temp matches ..0 run function rx.ec:upgrade/test
