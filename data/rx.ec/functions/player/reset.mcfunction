@@ -6,6 +6,7 @@
 function rx.playerdb:api/get_self
 data remove storage rx:io playerdb.player.data.rx.ec
 function rx.playerdb:api/save_self
+
 scoreboard players reset @s rx.ec.currPage
 scoreboard players reset @s rx.ec.maxPage
 scoreboard players reset @s rx.ec.openChest

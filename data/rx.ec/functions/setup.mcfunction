@@ -13,6 +13,9 @@ data modify storage rx:temp ec.player set from entity @s
 data modify storage rx:io playerdb.player.data.rx.ec.current_page set value []
 data modify storage rx:io playerdb.player.data.rx.ec.up_pages set value []
 data modify storage rx:io playerdb.player.data.rx.ec.down_pages set value []
+data modify storage rx:io playerdb.player.data.rx.ec.scores.maxPage set value 0
+data modify storage rx:io playerdb.player.data.rx.ec.scores.openChest set value 2
+
 scoreboard players set $loop rx.temp 0
 
 # generate upgrade

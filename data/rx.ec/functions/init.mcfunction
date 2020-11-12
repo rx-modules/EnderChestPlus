@@ -19,5 +19,9 @@ execute unless block -30000000 0 1602 minecraft:yellow_shulker_box run setblock 
 execute unless block -30000000 0 1603 minecraft:oak_wall_sign run setblock -30000000 0 1603 minecraft:oak_wall_sign[facing=south]
 fill -30000000 1 1600 -30000000 1 1615 minecraft:bedrock
 
+# version
+data modify storage rx:info ec.version.major set value 1
+data modify storage rx:info ec.version.minor set value 4
+
 # schecdule tick
 schedule function rx.ec:tick 1t replace

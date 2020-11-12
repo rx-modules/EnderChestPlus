@@ -13,7 +13,7 @@ data remove storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.Slot
 
 # count item stack count
 execute store result score $count rx.temp run data get storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.Count
-# tellraw rx97 [{"score":{"name":"$count","objective":"rx.temp"},"color":"gold"}, " ", {"selector": "@s"}]
+
 # construct lore + save
 execute unless data storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.display run data modify block -30000000 0 1603 Text1 set value '[{"score":{"name":"$count","objective":"rx.temp"},"color":"#cd31e6"}, " ", {"selector": "@e[type=item,tag=rx.ec.spawned,limit=1]", "italic": true}]'
 execute if data storage rx:io playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.display run data modify block -30000000 0 1603 Text1 set value '[{"score":{"name":"$count","objective":"rx.temp"},"color":"#cd31e6"}, " ", {"nbt": "playerdb.player.data.rx.ec.upgrade.items[-1].item.tag.display.Name", "storage": "rx:io", "interpret": true, "italic": true}]'
