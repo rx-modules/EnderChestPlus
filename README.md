@@ -16,7 +16,7 @@ Quick Preview: ![preview](gifs/enderchest+.gif)
 
 ## Usage
 
-First, you must make sure you have the dependency, PlayerDB, installed. **This is a requirement.** You can get the latest release of PlayerDB (v0.7-beta) [here](https://github.com/RitikShah/PlayerDB/releases)!
+First, you must make sure you have the dependency, PlayerDB, installed. **This is a requirement.** You can get the latest release of PlayerDB (v0.7-beta) [here](https://github.com/rx-modules/PlayerDB/releases)!
 
 Then, if you just plop both of these datapacks into your datapacks folder, you should be set!
 To start, craft a normal enderchest and plunk it down. You'll notice upon opening, a cool guide book will appear in your chest. You'll also notice some *strange* items on the right-side. These are your **UI** items. Every UI item will display your current page number.
