@@ -10,7 +10,7 @@
 #   output-folder = <folder name to output>
 
 title = 'EnderChest+'
-version = 'v1.4'
+version = 'v1.5'
 name-format = '{title} {version} {release_name}'
 
 [global]

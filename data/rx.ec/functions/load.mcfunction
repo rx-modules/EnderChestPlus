@@ -17,7 +17,7 @@ data modify storage rx:info ec.name set value 'EnderChest+'
 data modify storage rx:info ec.pretty_name set value '[{"text":"E","color":"#661192"},{"text":"n","color":"#841aa7"},{"text":"d","color":"#a223bd"},{"text":"e","color":"#c12cd2"},{"text":"r","color":"#df35e8"},{"text":"C","color":"light_purple"},{"text":"h","color":"#e037ef"},{"text":"e","color":"#c32fe1"},{"text":"s","color":"#a627d2"},{"text":"t","color":"#891fc4"},{"text":"+","color":"#6c17b6"}]'
 
 #> Load EnderChest only if PlayerDB is loaded + version
-execute if score rx.PlayerDB load matches 1.. if data storage rx:info playerdb.version if score $major rx.temp matches 0 if score $minor rx.temp matches 8.. run scoreboard players set rx.EnderChest+ load 1
+execute if score rx.PlayerDB load matches 1.. if data storage rx:info playerdb.version if score $major rx.temp matches 0..1 if score $minor rx.temp matches 8.. run scoreboard players set rx.EnderChest+ load 1
 
 #> Success, let's load
 execute if score rx.EnderChest+ load matches 1.. run tellraw @a[tag=rx.admin] [{"nbt": "ec.pretty_name", "storage": "rx:info", "interpret": true}, " ", {"text": "L", "color": "#661192"}, {"text": "o", "color": "#a223bd"}, {"text": "a", "color": "#c12cd2"}, {"text": "d", "color": "#c32fe1"}, {"text": "e", "color": "#a627d2"}, {"text": "d", "color": "#6c17b6"}]
