@@ -21,7 +21,7 @@ fill -30000000 1 1600 -30000000 1 1615 minecraft:bedrock
 
 # version
 data modify storage rx:info ec.version.major set value 1
-data modify storage rx:info ec.version.minor set value 4
+data modify storage rx:info ec.version.minor set value 5
 
 # schecdule tick
 schedule function rx.ec:tick 1t replace
