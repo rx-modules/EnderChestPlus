@@ -14,7 +14,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": 3,
-								"probability": 1.00
+								"probability": 0.75
 							}
 						},
 						{
@@ -23,7 +23,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": 4,
-								"probability": 1.00
+								"probability": 0.75
 							}
 						}
 					]
@@ -54,8 +54,8 @@
 							"enchantment": "minecraft:aqua_affinity",
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
-								"extra": 2,
-								"probability": 1.00
+								"extra": 1,
+								"probability": 0.75
 							}
 						}
 					]
@@ -87,7 +87,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": -3,
-								"probability": 1.00
+								"probability": 0.85
 							}
 						}
 					]
@@ -119,7 +119,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": -2,
-								"probability": 1.00
+								"probability": 0.90
 							}
 						}
 					]
@@ -132,7 +132,7 @@
 					"scores": {
 						"rx.ec.maxPage": {
 							"min": 7,
-							"max": 8
+							"max": 9
 						}
 					}
 				}
@@ -150,8 +150,8 @@
 							"enchantment": "minecraft:aqua_affinity",
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
-								"extra": -9,
-								"probability": 1.00
+								"extra": -8,
+								"probability": 0.50
 							}
 						}
 					]
@@ -163,7 +163,7 @@
 					"entity": "this",
 					"scores": {
 						"rx.ec.maxPage": {
-							"min": 9,
+							"min": 10,
 							"max": 1000000
 						}
 					}
