@@ -1,4 +1,4 @@
-config-version = '1.1.0'
+config-version = '1.1.1'
 
 ###
 # [ Datapack Builder ]
@@ -52,4 +52,10 @@ name-format = '{title} {version} {release_name}'
 
 	[releases.snapshot]
 		[[releases.snapshot.rules]]
+			ignore = ['pack.mcmeta']
+			include = ['pack.snapshot']
+		[[releases.snapshot.rules]]
+			replacer = {'.snapshot'='.mcmeta'}
 			regex = {'replaceitem (entity @.[^[]*? .*? |entity @.\[.*?\] .*? |block (.*? ){4})' = 'item \1replace '}
+		[[releases.snapshot.rules]]
+			ignore = ['pack.snapshot']
