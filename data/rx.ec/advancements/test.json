@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "talk": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "talk"
+    ]
+  ],
+  "rewards": {
+    "function": "survival_rework:events/talk"
+  }
+}
