@@ -11,5 +11,5 @@ scoreboard players set $loop rx.temp 0
 function rx.ec:upgrade/gen
 
 # audiovisual
-execute at @s run playsound minecraft:item.armor.equip_netherite master @s ~ ~ ~ 2 .1
-execute at @s run playsound minecraft:item.armor.equip_diamond master @s ~ ~ ~ 2 .75
+execute at @s run playsound minecraft:item.armor.equip_netherite voice @s ~ ~ ~ 2 .1
+execute at @s run playsound minecraft:item.armor.equip_diamond voice @s ~ ~ ~ 2 .75

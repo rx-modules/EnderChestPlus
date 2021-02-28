@@ -21,8 +21,8 @@ execute if score rx.PlayerDB load matches 1.. if data storage rx:info playerdb.v
 execute if score rx.PlayerDB load matches 1.. if data storage rx:info playerdb.version if score $major rx.temp matches 1 if score $minor rx.temp matches 0.. run scoreboard players set rx.EnderChest+ load 1
 
 #> Success, let's load
-execute if score rx.EnderChest+ load matches 1.. run tellraw @a[tag=rx.admin] [{"text":"", "color":"gray"}, {"nbt": "ec.pretty_name", "storage": "rx:info", "interpret": true}, " ", {"storage": "rx:info", "nbt": "ec.pretty_version", "interpret": true}, " loaded"]
 execute if score rx.EnderChest+ load matches 1.. run function rx.ec:init
+execute if score rx.EnderChest+ load matches 1.. run tellraw @a[tag=rx.admin] [{"text":"", "color":"gray"}, {"nbt": "ec.pretty_name", "storage": "rx:info", "interpret": true}, " ", {"storage": "rx:info", "nbt": "ec.version.major"}, ".", {"storage": "rx:info", "nbt": "ec.version.minor"}, ".", {"storage": "rx:info", "nbt": "ec.version.patch"}, " loaded"]
 
 #> Oh no, something is wrong
 execute unless score rx.EnderChest+ load matches 1.. run schedule clear rx.ec:tick

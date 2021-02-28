@@ -11,5 +11,5 @@ execute in minecraft:overworld run function rx.ec:gui/fix
 function rx.playerdb:api/save_self
 
 # audiovisual
-execute at @s run playsound minecraft:item.armor.equip_netherite master @s ~ ~ ~ 2 .1
-execute at @s run playsound minecraft:item.armor.equip_diamond master @s ~ ~ ~ 2 .75
+execute at @s run playsound minecraft:item.armor.equip_netherite voice @s ~ ~ ~ 2 .1
+execute at @s run playsound minecraft:item.armor.equip_diamond voice @s ~ ~ ~ 2 .75
