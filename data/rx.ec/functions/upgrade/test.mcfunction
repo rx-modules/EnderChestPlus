@@ -24,7 +24,7 @@ execute store result storage rx:temp ec.items[-1].Count byte 1 run scoreboard pl
 # tellraw rx97 ["HELLO: ", {"score": {"name": "$count", "objective":"rx.temp"},"color":"gold"}, " ", {"score": {"name": "$test.count", "objective":"rx.temp"}}]
 
 # if success sound
-execute if score $success rx.temp matches 1.. at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 0.75 2
+execute if score $success rx.temp matches 1.. at @s run playsound minecraft:entity.experience_orb.pickup voice @s ~ ~ ~ 0.75 2
 
 # if we've completed all upgrade sfuff, new page :D
 execute store result score $size rx.temp if data storage rx:io playerdb.player.data.rx.ec.upgrade.items[{completed:0b}]

@@ -34,7 +34,7 @@ replaceitem entity @s enderchest.13 written_book{pages:['["",{"text":"E","color"
 function rx.ec:gui/fix
 
 # audiovisual
-execute at @s run playsound minecraft:entity.firework_rocket.launch master @s ~ ~ ~ 1 2
+execute at @s run playsound minecraft:entity.firework_rocket.launch voice @s ~ ~ ~ 1 2
 
 function rx.playerdb:api/save_self
 scoreboard players add @s rx.ec.openChest 1
