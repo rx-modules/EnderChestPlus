@@ -1,6 +1,51 @@
 {
     "display": {
-        "title": [{"text":"E","color":"#661192"},{"text":"n","color":"#841aa7"},{"text":"d","color":"#a223bd"},{"text":"e","color":"#c12cd2"},{"text":"r","color":"#df35e8"},{"text":"C","color":"light_purple"},{"text":"h","color":"#e037ef"},{"text":"e","color":"#c32fe1"},{"text":"s","color":"#a627d2"},{"text":"t","color":"#891fc4"},{"text":"+","color":"#6c17b6"}],
+        "title": [
+            {
+                "text": "E",
+                "color": "#661192"
+            },
+            {
+                "text": "n",
+                "color": "#841aa7"
+            },
+            {
+                "text": "d",
+                "color": "#a223bd"
+            },
+            {
+                "text": "e",
+                "color": "#c12cd2"
+            },
+            {
+                "text": "r",
+                "color": "#df35e8"
+            },
+            {
+                "text": "C",
+                "color": "light_purple"
+            },
+            {
+                "text": "h",
+                "color": "#e037ef"
+            },
+            {
+                "text": "e",
+                "color": "#c32fe1"
+            },
+            {
+                "text": "s",
+                "color": "#a627d2"
+            },
+            {
+                "text": "t",
+                "color": "#891fc4"
+            },
+            {
+                "text": "+",
+                "color": "#6c17b6"
+            }
+        ],
         "description": "Infinitely Expandable EnderChests!",
         "icon": {
             "item": "minecraft:ender_chest"

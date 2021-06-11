@@ -45,7 +45,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": 0,
-								"probability": 1.00
+								"probability": 1
 							}
 						},
 						{
@@ -54,7 +54,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": 0,
-								"probability": 0.90
+								"probability": 0.9
 							}
 						},
 						{
@@ -72,7 +72,7 @@
 							"formula": "minecraft:binomial_with_bonus_count",
 							"parameters": {
 								"extra": 1,
-								"probability": 0.50
+								"probability": 0.5
 							}
 						}
 					]

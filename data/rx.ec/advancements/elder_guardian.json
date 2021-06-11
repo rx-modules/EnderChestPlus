@@ -10,7 +10,9 @@
     }
   },
   "rewards": {
-    "loot": ["rx.ec:elder_essence"],
+    "loot": [
+      "rx.ec:elder_essence"
+    ],
     "function": "rx.ec:revoke"
   }
 }
