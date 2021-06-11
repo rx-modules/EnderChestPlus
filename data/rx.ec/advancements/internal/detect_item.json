@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "update": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:player_head",
+            "nbt": "{rx:{ec:{gui:1b}}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rx.ec:gui/item"
+  }
+}

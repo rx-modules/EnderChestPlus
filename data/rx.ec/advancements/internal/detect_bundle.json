@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "update": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bundle",
+            "nbt": "{Items:[{tag:{rx:{ec:{gui:1b}}}}]}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rx.ec:player/clear_bundle"
+  }
+}

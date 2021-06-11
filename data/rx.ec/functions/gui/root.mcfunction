@@ -14,6 +14,7 @@ scoreboard players set $success rx.temp 0
 scoreboard players set $shulker rx.temp 0
 scoreboard players operation $old.page rx.temp = @s rx.ec.currPage
 
+
 # capture items that are clicked upon gui item
 data modify storage rx:temp ec.items append from storage rx:temp ec.player.EnderItems[{Slot:8b}]
 data modify storage rx:temp ec.upgrade set from storage rx:temp ec.player.EnderItems[{Slot:17b}]

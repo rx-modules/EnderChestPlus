@@ -11,6 +11,6 @@
   },
   "rewards": {
     "loot": ["rx.ec:elder_essence"],
-    "function": "rx.ec:revoke"
+    "function": "rx.ec:player/revoke"
   }
 }

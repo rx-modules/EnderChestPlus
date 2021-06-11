@@ -11,6 +11,6 @@
   },
   "rewards": {
     "loot": ["rx.ec:dragon_soul"],
-    "function": "rx.ec:revoke"
+    "function": "rx.ec:player/revoke"
   }
 }

@@ -1,174 +1,253 @@
 {
-	"type": "minecraft:fishing",
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": 3,
-								"probability": 0.75
-							}
-						},
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": 4,
-								"probability": 0.75
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"rx.ec.maxPage": {
-							"min": 0,
-							"max": 1
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_block",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": 1,
-								"probability": 0.75
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"rx.ec.maxPage": {
-							"min": 2,
-							"max": 4
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherite_ingot",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": -3,
-								"probability": 0.85
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"rx.ec.maxPage": {
-							"min": 5,
-							"max": 6
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherite_ingot",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": -2,
-								"probability": 0.90
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"rx.ec.maxPage": {
-							"min": 7,
-							"max": 9
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherite_block",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:aqua_affinity",
-							"formula": "minecraft:binomial_with_bonus_count",
-							"parameters": {
-								"extra": -8,
-								"probability": 0.50
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"rx.ec.maxPage": {
-							"min": 10,
-							"max": 1000000
-						}
-					}
-				}
-			]
-		}
-	]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 12,
+                "p": 0.75
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "$max.page"
+                  },
+                  "score": "rx.temp",
+                  "scale": 8
+                },
+                "p": 0.75
+              },
+              "add": true
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$max.page"
+            },
+            "score": "rx.temp"
+          },
+          "range": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 24,
+                "p": 0.65
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "$max.page"
+                  },
+                  "score": "rx.temp",
+                  "scale": 8
+                },
+                "p": 0.80
+              },
+              "add": true
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$max.page"
+            },
+            "score": "rx.temp"
+          },
+          "range": {
+            "min": 3,
+            "max": 5
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "$max.page"
+                  },
+                  "score": "rx.temp",
+                  "scale": 0.5
+                },
+                "p": 0.80
+              },
+              "add": true
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$max.page"
+            },
+            "score": "rx.temp"
+          },
+          "range": {
+            "min": 6,
+            "max": 7
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "$max.page"
+                  },
+                  "score": "rx.temp",
+                  "scale": 0.5
+                },
+                "p": 0.80
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$max.page"
+            },
+            "score": "rx.temp"
+          },
+          "range": {
+            "min": 8,
+            "max": 12
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "$max.page"
+                  },
+                  "score": "rx.temp",
+                  "scale": 0.2
+                },
+                "p": 0.55
+              },
+              "add": true
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$max.page"
+            },
+            "score": "rx.temp"
+          },
+          "range": {
+            "min": 13
+          }
+        }
+      ]
+    }
+  ]
 }

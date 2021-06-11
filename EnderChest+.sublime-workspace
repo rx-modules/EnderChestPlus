@@ -1,0 +1,1685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exr",
+				"extra_armor"
+			],
+			[
+				"nethr",
+				"netherite_scrap"
+			],
+			[
+				"Trident",
+				"TridentWielder"
+			],
+			[
+				"index",
+				"index=…\tkeyword ⟠"
+			],
+			[
+				"sco",
+				"scoreboard"
+			],
+			[
+				"Cust",
+				"CustomPotionEffects\t  Type: list"
+			],
+			[
+				"k",
+				"generic.knockback_resistance\t  Field"
+			],
+			[
+				"g",
+				"generic.attack_knockback\t  Field"
+			],
+			[
+				"key",
+				"keybinds\t⟠"
+			],
+			[
+				"build",
+				"build_layout()\tfunction ⟠"
+			],
+			[
+				"green_conc",
+				"green_concrete_powder\t  Field"
+			],
+			[
+				"rando",
+				"randcolor"
+			],
+			[
+				"H",
+				"HISTORY"
+			],
+			[
+				"quartz",
+				"quartz_slab\t  Field"
+			],
+			[
+				"In",
+				"initial_state"
+			],
+			[
+				"init",
+				"initial_state"
+			],
+			[
+				"sch",
+				"scheduler\tmodule ⟠"
+			],
+			[
+				"updat",
+				"update_account"
+			],
+			[
+				"red",
+				"redirect_uri"
+			],
+			[
+				"summon",
+				"summonAec\t  Snippet"
+			],
+			[
+				"Wie",
+				"WEIGHS"
+			],
+			[
+				"rand",
+				"randarray(…)\tfunction ⟠"
+			],
+			[
+				"confi",
+				"config-version"
+			],
+			[
+				"write",
+				"writestr"
+			],
+			[
+				"relea",
+				"releases\t⟠"
+			],
+			[
+				"in",
+				"interpret\t  interpret"
+			],
+			[
+				"sc",
+				"scoreboardPlayersSet\t  Snippet"
+			],
+			[
+				"scoreboard",
+				"scoreboardPlayersOperation\t  Snippet"
+			],
+			[
+				"zip",
+				"zip\tZipFile ⟠"
+			],
+			[
+				"Da",
+				"DataFrame\ttype ⟠"
+			],
+			[
+				"rx",
+				"rx.nt.mode"
+			],
+			[
+				"wood",
+				"block.wood.place\t  Field"
+			],
+			[
+				"ender",
+				"ender_dragon\t  Field"
+			],
+			[
+				"r",
+				"rx.ec.currPage"
+			],
+			[
+				"set",
+				"set_name\t  Field"
+			],
+			[
+				"nbt",
+				"set_nbt\t  Field"
+			],
+			[
+				"_",
+				"_iter_test\t  Function"
+			],
+			[
+				"sh",
+				"shlex\tmodule ⟠"
+			],
+			[
+				"req_",
+				"req_whitelist\tPreparedRequest | Response | dict ⟠"
+			],
+			[
+				"Wo",
+				"WorldClass\tparam"
+			],
+			[
+				"ca",
+				"cartesian\tparam"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"class",
+				"classmethod\tclass"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"entity",
+				"entity_scores"
+			],
+			[
+				"displa",
+				"display_tag"
+			],
+			[
+				"Skull",
+				"skullowner"
+			],
+			[
+				"hi",
+				"hidden_attrs\tstatement"
+			],
+			[
+				"def",
+				"defaultdict\tclass"
+			],
+			[
+				"video",
+				"video_path"
+			],
+			[
+				"meta",
+				"metadata_path"
+			],
+			[
+				"metadata",
+				"metadata_uri\tstatement"
+			],
+			[
+				"metd",
+				"metadata_path"
+			],
+			[
+				"thum",
+				"thumbnail_path\tstatement"
+			],
+			[
+				"property",
+				"property\tNew Property"
+			],
+			[
+				"conf",
+				"config_file\tstatement"
+			],
+			[
+				"acc",
+				"accelerometer"
+			],
+			[
+				"code",
+				"code\tparam"
+			],
+			[
+				"co",
+				"codeptr\tparam"
+			],
+			[
+				"break",
+				"break\tkeyword"
+			],
+			[
+				"REve",
+				"Reverse\tclass"
+			],
+			[
+				"loop",
+				"loop_end\tfunction"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"bitI",
+				"bitI"
+			],
+			[
+				"statu",
+				"status_cache"
+			],
+			[
+				"player",
+				"player_names\tstatement"
+			],
+			[
+				"heads",
+				"heads"
+			],
+			[
+				"filter",
+				"filter_packet"
+			],
+			[
+				"line",
+				"line\tstatement"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"object",
+				"object_hook\tparam"
+			],
+			[
+				"omni",
+				"omnipro-lite"
+			],
+			[
+				"date",
+				"date_tuple\tstatement"
+			],
+			[
+				"file",
+				"filename_pat\tparam"
+			],
+			[
+				"USB",
+				"USB_FOLDER_NAME\tstatement"
+			],
+			[
+				"config",
+				"config_to_module\tinstance"
+			],
+			[
+				"serial",
+				"serialSender"
+			],
+			[
+				"supr",
+				"suppress\tmodule"
+			],
+			[
+				"Mo",
+				"MODULE_NAME"
+			],
+			[
+				"sup",
+				"suppress\tmodule"
+			],
+			[
+				"ext",
+				"extensions"
+			],
+			[
+				"open",
+				"opened_files\tstatement"
+			],
+			[
+				"coll",
+				"collisionThreshold"
+			],
+			[
+				"BU",
+				"BuildingRent\tclass"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"afte",
+				"afternoonStartTime"
+			],
+			[
+				"number",
+				"Number"
+			],
+			[
+				"execu",
+				"executeUpdate"
+			],
+			[
+				"get",
+				"getInt"
+			],
+			[
+				"prep",
+				"prepareStatement"
+			],
+			[
+				"results",
+				"resultsUsers"
+			],
+			[
+				"update",
+				"updateUserStatement"
+			],
+			[
+				"cancel",
+				"cancelReservationStatement"
+			],
+			[
+				"canc",
+				"cancelReservationStatement"
+			],
+			[
+				"Res",
+				"ResultSet"
+			],
+			[
+				"CLEAR_RE",
+				"CLEAR_RESERVATIONSID"
+			],
+			[
+				"CLEAR_RESER",
+				"CLEAR_RESERVATIONS"
+			],
+			[
+				"execute",
+				"executeUpdate"
+			],
+			[
+				"reserva",
+				"reservationId"
+			],
+			[
+				"day",
+				"dayOfMonth"
+			],
+			[
+				"Iten",
+				"Itinerary"
+			],
+			[
+				"It",
+				"Itinerary"
+			],
+			[
+				"Iter",
+				"Itinerary"
+			],
+			[
+				"execut",
+				"executeQuery"
+			],
+			[
+				"it",
+				"itineraryId"
+			],
+			[
+				"cleat",
+				"clearTableStatement"
+			],
+			[
+				"clear",
+				"clearParameters"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"textblobs",
+				"textblobs_clean"
+			],
+			[
+				"remove",
+				"remove_col"
+			],
+			[
+				"featu",
+				"features"
+			],
+			[
+				"FEA",
+				"FEATURED_PKL"
+			],
+			[
+				"CLEAN",
+				"CLEANED_PKL"
+			],
+			[
+				"GROUP",
+				"GROUPME_PKL"
+			],
+			[
+				"unpicl",
+				"unpickle"
+			],
+			[
+				"INTRO",
+				"INTRO_INPUT"
+			],
+			[
+				"IN",
+				"INTRO_INPUT"
+			],
+			[
+				"max_",
+				"max_leaf_nodes"
+			],
+			[
+				"impui",
+				"impurity_split"
+			],
+			[
+				"sample",
+				"samples_split"
+			],
+			[
+				"impur",
+				"impurity_split"
+			],
+			[
+				"plot",
+				"plot_result"
+			],
+			[
+				"image",
+				"imageio"
+			],
+			[
+				"template",
+				"template_match"
+			],
+			[
+				"invert",
+				"invert_colors"
+			],
+			[
+				"url",
+				"urlsCount"
+			],
+			[
+				"me",
+				"mentionsCount"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# By: rx97\n# 4 Oct 2020\n# \n#> schedule tick loop\n\n#> player tick\nexecute in minecraft:overworld as @a run function rx.ec:player\n\n#> kill thrown GUI items :( (TODO: try slow clock bc PickupDelay?)\nkill @e[type=item,nbt={Item:{tag:{rx:{ec:{gui:1b}}}}}]\n\nschedule function rx.ec:tick 1t replace\n\nsay {{ctx.test}}\n",
+			"file": "data/rx.ec/functions/tick.mcfunction",
+			"file_size": 311,
+			"file_write_time": 132677460913077389,
+			"redo_stack":
+			[
+				[
+					77,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"${0:$SELECTION}\""
+					},
+					"AgAAACsBAAAAAAAAKwEAAAAAAAAKAAAAImN0eC50ZXN0IisBAAAAAAAAMwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALAEAAAAAAAA0AQAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 310,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAACQBAAAAAAAAJQEAAAAAAAAAAAAAJQEAAAAAAAAmAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJAEAAAAAAAAkAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "say"
+					},
+					"AwAAACUBAAAAAAAAJgEAAAAAAAAAAAAAJgEAAAAAAAAnAQAAAAAAAAAAAAAnAQAAAAAAACgBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJQEAAAAAAAAlAQAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACgBAAAAAAAAKQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKAEAAAAAAAAoAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					2,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AgAAACkBAAAAAAAAKwEAAAAAAAAAAAAAKgEAAAAAAAAsAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKQEAAAAAAAApAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "test"
+					},
+					"BAAAACsBAAAAAAAALAEAAAAAAAAAAAAALAEAAAAAAAAtAQAAAAAAAAAAAAAtAQAAAAAAAC4BAAAAAAAAAAAAAC4BAAAAAAAALwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwEAAAAAAAArAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAC8BAAAAAAAAMAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": ".test"
+					},
+					"BQAAAC8BAAAAAAAAMAEAAAAAAAAAAAAAMAEAAAAAAAAxAQAAAAAAAAAAAAAxAQAAAAAAADIBAAAAAAAAAAAAADIBAAAAAAAAMwEAAAAAAAAAAAAAMwEAAAAAAAA0AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"left_delete",
+					null,
+					"AQAAADQBAAAAAAAANAEAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAANQEAAAAAAAA1AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"insert",
+					{
+						"characters": "ctx"
+					},
+					"BAAAACsBAAAAAAAALAEAAAAAAAAAAAAALAEAAAAAAAAsAQAAAAAAAAQAAAB0ZXN0LAEAAAAAAAAtAQAAAAAAAAAAAAAtAQAAAAAAAC4BAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4BAAAAAAAALgEAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "|"
+					},
+					"AQAAAC4BAAAAAAAALwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgEAAAAAAAAuAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4BAAAAAAAALgEAAAAAAAABAAAAfA",
+					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAC4BAAAAAAAALwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgEAAAAAAAAuAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mcfun",
+				"Set Syntax: mcfunction"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lsp:",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"res",
+				"LSP: Restart Servers"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"json",
+				"Pretty JSON: Format JSON"
+			],
+			[
+				"LSP:",
+				"LSP: Restart Servers"
+			],
+			[
+				"l",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"LSP: ",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lsplsp",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"mcfunc",
+				"Set Syntax: mcfunction"
+			],
+			[
+				"log",
+				"Set Syntax: Git Log"
+			],
+			[
+				"rest",
+				"LSP: Restart Servers"
+			],
+			[
+				"lsp:tog",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"trap",
+				"Trim Trailing White Space"
+			],
+			[
+				"traps",
+				"Trim Trailing White Space"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"LSP",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"back",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"swap",
+				"Swap Selections"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"toggle",
+				"Word Wrap: Toggle"
+			],
+			[
+				"tog",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"fi",
+				"File: Locate"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"blac",
+				"Sublack: Format file"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"black",
+				"Sublack: Format file"
+			],
+			[
+				"val",
+				"Pretty JSON: Validate"
+			],
+			[
+				"mi",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"mini",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"min",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"m",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remopve",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftrp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ss",
+				"SFTP: Setup Server…"
+			],
+			[
+				"bash",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"markdown",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"function",
+				"Inline Python: Run selection through function"
+			],
+			[
+				"execute",
+				"Inline Python: Execute selected code"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"format",
+				"Pretty JSON: Format JSON Lines"
+			],
+			[
+				"valid",
+				"Pretty JSON: Validate"
+			],
+			[
+				"preview",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"pre",
+				"Preferences: Emmet Settings"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"temrin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"inline",
+				"Inline Python: Run selection through function"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"pritn",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"lSP",
+				"LSP: Restart Servers"
+			],
+			[
+				"anacon\t",
+				"Anaconda: Vagrant Enable"
+			],
+			[
+				"termina",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"python",
+				"Inline Python: Execute selected code"
+			],
+			[
+				"ana",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"a",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				":",
+				":$ - EOF"
+			],
+			[
+				"live",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				" ",
+				":$ - EOF"
+			],
+			[
+				"start",
+				"Debugger: Start"
+			],
+			[
+				"debu",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"de",
+				"Debugger: Install Adapters"
+			],
+			[
+				"debug",
+				"Debugger: Start"
+			],
+			[
+				"deb",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"dbeug",
+				"Debugger: Install Adapters"
+			],
+			[
+				"subl",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"to",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"git",
+				"Git: Gitk"
+			],
+			[
+				"diff",
+				"Git: Diff All Files"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pretty ",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"brtacl",
+				"RainbowBrackets: clear view"
+			],
+			[
+				"v",
+				"Pretty JSON: Validate"
+			],
+			[
+				"sublinter",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"eval",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"an",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimel",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"disable li",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"basH",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"paste",
+				"Text Pastry: Paste"
+			],
+			[
+				"mate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"themes",
+				"Material Theme: Extras"
+			],
+			[
+				"rogg",
+				"Bookmarks: Toggle"
+			],
+			[
+				"high",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"sq",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"toggl",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"jsonn",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"time",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"html",
+				"Print to HTML: print as HTML to new buffer"
+			],
+			[
+				"highl",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"rainbow",
+				"Set Syntax: CSV (Rainbow)"
+			],
+			[
+				"highli",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"read",
+				"Toggle Readonly mode"
+			],
+			[
+				"highlight",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"hig",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"toggle high",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"",
+				"Equation Preview: Clear Equation Preview"
+			],
+			[
+				"pakcage",
+				"Package Control: List Packages"
+			],
+			[
+				"gitsa",
+				"GitSavvy: help"
+			],
+			[
+				"text pastr",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+			"import mc",
+			"import",
+			"mc",
+			"InlinePython"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ritik/Life/Things/datapacks/EnderChest+",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/data",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/data/rx.ec",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/data/rx.ec/functions"
+	],
+	"file_history":
+	[
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/jinja.sublime-syntax",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/test.sublime-syntax",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/test.tmLanguage",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/html-jinja.sublime-syntax",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/mcfunction-jinja.sublime-syntax",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/mcfunction-test.sublime-syntax",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/data/rx.ec/functions/init.mcfunction",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/data/rx.ec/functions/uninstall.mcfunction",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/mcfunction-jinja.yaml",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/beet.yaml",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/mcfunction.sublime-settings",
+		"/Users/ritik/Life/Things/datapacks/EnderChest+/beet.toml",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/trap.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/arrow_supply.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/armor_pack.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/armor_table.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/spanner.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/warp_barrel.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/detect/sie/engineer.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/detect/sie/lobby.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/on_spawn.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/sie_player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/loot_tables/sie/kits.json",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/join_game.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/maps/atoll/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/maps/holy_city/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/maps/salt_island/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/maps/temple/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/on_death.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/sie_entities.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/entities/engineer_parrot.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/entities/tool_station.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/entities/arrow_supply.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entities.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/arrow_supply/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/armor_table/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/armor_table/improve_armor.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/armor_pack/on_use.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/archer/give_arrow.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/archer/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/archer/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/arrow_supply/init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/swashbuckler/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/player/resets.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/player/on_death.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/armor_table/player_on_hit.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/entities/warp_barrel.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/entities/construct.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/smoke_bomb/explode.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/tick2.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/firepot/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/bird_whistle/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/bird_whistle/whistle.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/explode.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/book/use.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/bird_whistle/on_use.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/dungeon/functions/mobs/killmobs.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/services/functions/main.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/theshulkerbox/functions/resets_player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/make.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/warp_barrel/make.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/warp_barrel/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/warp_barrel/init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/warp_barrel/warp.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/arrow_supply/make.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/process/runtime_items.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/armor_table/make.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/armor_table/init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/trap/make.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/cage.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/craft/crate.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/trigger.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/SIEGE ENGINEER STUFF/parrot/new_parrot.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/bird_cage/parrot_init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/item/bird_whistle/reset.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/entity/check_game_id.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/sie/engineer.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/siekits.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/ctf/functions/kitdesc/feedback.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/theshulkerbox/functions/main.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/ctf/functions/ctf.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/services/functions/killstreak.mcfunction",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/User/LSP.sublime-settings",
+		"/Users/ritik/Library/Application Support/Sublime Text 3/Packages/LSP/LSP.sublime-settings",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/firepot/light.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/firepot/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/firepot/init_arrow.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/load.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/kits/defensive.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/assassin/loadout.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/detect/admin/allkits.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/sie/functions/kitfunctions/swashbuckler.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/trap/tell_engineer.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/services/functions/traps.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/defensive.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/aggro.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/support.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/proj.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/base.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/gui/functions/pages/admin/allkits.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/trap/on_step.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/trap/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/fire_pot/tick.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/loadout.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/book/use.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/book/reset.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/process/item/return_offhand.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/game/functions/player/join.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/entity/trap/init.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/tactician/entities.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/services/functions/alchemy.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/engineer/use_book.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/tactician/player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/warbow/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/process/item/main.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/assassin/give.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/headsman/loadout.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/theshulkerbox/functions/endgame.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/logic/bombardier/flash/flashed_player.mcfunction",
+		"/Users/ritik/Life/Things/MC2/dev/shulker/shulkerbox/data/kits/functions/process/runtime.mcfunction"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "data/rx.ec/functions/tick.mcfunction",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"glslvalidator_configured": true,
+							"glslvalidator_enabled": 1,
+							"incomplete_sync": null,
+							"rainbow_checked": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/User/mcfunction-jinja.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 51.0
+	},
+	"output.SFTP":
+	{
+		"height": 162.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 96.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 144.0
+	},
+	"output.diagnostics":
+	{
+		"height": 56.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 215.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 180.0
+	},
+	"output.language servers":
+	{
+		"height": 186.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 156.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "Packages/User/python37.sublime-build",
+	"project": "EnderChest+.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"services main",
+				"data/services/functions/main.mcfunction"
+			],
+			[
+				"entities/",
+				"data/sie/functions/entities/tool_station.mcfunction"
+			],
+			[
+				"craft trap",
+				"data/kits/functions/logic/engineer/craft/trap.mcfunction"
+			],
+			[
+				"theshulkerbox",
+				"data/theshulkerbox/functions/main.mcfunction"
+			],
+			[
+				"firepot tick",
+				"data/kits/functions/logic/engineer/entity/firepot/tick.mcfunction"
+			],
+			[
+				"siekis",
+				"data/sie/functions/siekits.mcfunction"
+			],
+			[
+				"traps",
+				"data/services/functions/traps.mcfunction"
+			],
+			[
+				"trap",
+				"data/services/functions/traps.mcfunction"
+			],
+			[
+				"engingive",
+				"data/kits/functions/logic/engineer/give.mcfunction"
+			],
+			[
+				"alchemy",
+				"data/services/functions/alchemy.mcfunction"
+			],
+			[
+				"game player",
+				"data/game/functions/player/join.mcfunction"
+			],
+			[
+				"engineer tick",
+				"data/kits/functions/logic/engineer/tick.mcfunction"
+			],
+			[
+				"gui ctf lobby",
+				"data/gui/functions/detect/ctf/lobby.mcfunction"
+			],
+			[
+				"gui ctf json",
+				"data/gui/loot_tables/ctf/kits.json"
+			],
+			[
+				"gui lobby",
+				"data/gui/functions/detect/ctf/lobby.mcfunction"
+			],
+			[
+				"give",
+				"data/kits/functions/give.mcfunction"
+			],
+			[
+				"",
+				"testing/weird.txt"
+			],
+			[
+				"r",
+				"hw3-written.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 124.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"main"
+			]
+		],
+		"width": 574.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

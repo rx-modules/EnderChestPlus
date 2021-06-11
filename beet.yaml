@@ -1,0 +1,28 @@
+name: EnderChest+
+description: Infinitely Expandable EnderChests!
+author: rx97
+version: 2.0.0
+extend:
+  - '../beet_modules/base/beet.yaml'
+
+output: test
+
+ignore:
+  - releases/*
+
+data_pack:
+  load:
+    - .
+
+meta:
+  lantern_load:
+    shorthand: 'ec'
+    url: https://github.com/rx-modules/EnderChest+/releases
+    dependencies:
+      - name: PlayerDB
+        shorthand: pdb
+        url: https://github.com/rx-modules/PlayerDB/releases
+        version: 2.0.0
+    color:
+      - start: '#661192'
+        end: '#6c17b6'

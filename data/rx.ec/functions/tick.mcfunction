@@ -6,7 +6,7 @@
 #> player tick
 execute in minecraft:overworld as @a run function rx.ec:player
 
-#> kill thrown GUI items
+#> kill thrown GUI items :( (TODO: try slow clock bc PickupDelay?)
 kill @e[type=item,nbt={Item:{tag:{rx:{ec:{gui:1b}}}}}]
 
 schedule function rx.ec:tick 1t replace
