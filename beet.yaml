@@ -2,8 +2,25 @@ name: EnderChest+
 description: Infinitely Expandable EnderChests!
 author: rx97
 version: 2.0.0
-extend:
-  - '../beet_modules/base/beet.yaml'
+
+pipeline:
+  - directory: base
+    extend: [beet.yaml]
+    meta:
+      lantern_load:
+        namespace: 'rx.ec'
+        url: https://github.com/rx-modules/EnderChest+/releases
+        dependencies:
+          - name: PlayerDB
+            namespace: rx.pdb
+            url: https://github.com/rx-modules/PlayerDB/releases
+            version: '2.0.0'
+        colors:
+          - '#aa00ff'
+          - '#ff00e6'
+
+      global:
+        item: 'minecraft:ender_chest'
 
 output: test
 
@@ -13,16 +30,3 @@ ignore:
 data_pack:
   load:
     - .
-
-meta:
-  lantern_load:
-    shorthand: 'ec'
-    url: https://github.com/rx-modules/EnderChest+/releases
-    dependencies:
-      - name: PlayerDB
-        shorthand: pdb
-        url: https://github.com/rx-modules/PlayerDB/releases
-        version: 2.0.0
-    color:
-      - start: '#661192'
-        end: '#6c17b6'

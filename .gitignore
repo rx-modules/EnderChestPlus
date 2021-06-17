@@ -1,3 +1,5 @@
 .DS_Store
 releases/
 .vscode/
+test/
+beet-dev.yaml

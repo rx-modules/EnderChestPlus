@@ -10,11 +10,9 @@ function rx.playerdb:api/get_self
 
 # setup data
 data modify storage rx:temp ec.player set from entity @s
-data modify storage rx:io playerdb.player.data.rx.ec.current_page set value []
-data modify storage rx:io playerdb.player.data.rx.ec.up_pages set value []
-data modify storage rx:io playerdb.player.data.rx.ec.down_pages set value []
-data modify storage rx:io playerdb.player.data.rx.ec.scores.maxPage set value 0
-data modify storage rx:io playerdb.player.data.rx.ec.scores.openChest set value 2
+
+#!set default_nbt = '{current_page:[], up_pages:[], down_pages:[], scores:{maxPage:0, openChest:2}}'
+data modify storage rx:io playerdb.player.data.rx.ec merge {{default_nbt}}
 
 scoreboard players set $loop rx.temp 0
 
@@ -23,9 +21,9 @@ function rx.ec:upgrade/gen
 
 # give enderchest items back if icons overlap
 data remove block -30000000 0 1602 Items
-item entity @s enderchest.8 copy block -30000000 0 1602 container.0
-item entity @s enderchest.17 copy block -30000000 0 1602 container.1
-item entity @s enderchest.26 copy block -30000000 0 1602 container.2
+item replace block -30000000 0 1602 container.0 from entity @s enderchest.8
+item replace block -30000000 0 1602 container.1 from entity @s enderchest.17
+item replace block -30000000 0 1602 container.2 from entity @s enderchest.26
 loot give @s mine -30000000 0 1602 air{drop_contents:1b}
 
 

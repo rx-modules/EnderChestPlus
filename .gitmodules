@@ -1,0 +1,6 @@
+[submodule "base"]
+	path = base
+	url = https://github.com/rx-modules/base
+	branch = main
+[submodule]
+	recurse = true
