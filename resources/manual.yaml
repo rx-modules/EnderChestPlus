@@ -1,0 +1,44 @@
+title: EnderChest+ Manual
+author: rx97
+lore:
+  - A guide on how to
+  - use your brand new
+  - EnderChest+ (tm) System
+
+
+pages:
+  - title: Intro
+    body: |
+      Welcome to your new EnderChest+. Through a focus in utilizing the space taken by negative matter, we can store an infinite amount of items, given some expensive materials for "safety".
+
+      Explore this manual to learn more!
+
+
+  - title: Navigation
+    body: |
+      To navigate, click on the items on the right side items in your enderchest. Click these items will navigate upwards or downwards.
+
+      Shift-clicking these items will skip to the first or last page.
+
+
+  - title: Upgrading
+    body: |
+      To upgrade your system, just place the required materials upon the mini-enderchest item on the right-hand side.
+
+      Each upgrade will progressively become more expensive!
+
+      Elder Essence can be obtained by slaying an Elder Guardian and Dragons Soul can be obtained by slaying the Ender Dragon.
+
+
+  - title: Credits
+    body: |
+      This pack was written by rx97 and uses a library called {{PlayerDB}}.
+
+      Update this pack by grabbing the latest release on the {{Github}}.
+
+      Lastly, feel free to join my {{discord}} to ask questions or hang out!
+
+
+  - title: Legal
+    body: |
+      Upgrade materials are non-refundable. Complaints are sent to the bin. Side effects may include dysphoria, an upgrade addiction, and large amounts of netherite disappearing. Batteries not included.
