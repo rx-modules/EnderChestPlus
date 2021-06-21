@@ -3,3 +3,5 @@ releases/
 .vscode/
 test/
 beet-dev.yaml
+.sublime-*
+pyrightconfig.json

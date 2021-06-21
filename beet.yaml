@@ -1,37 +1,32 @@
 name: EnderChest+
+id: rx.ec
 description: Infinitely Expandable EnderChests!
 author: rx97
-version: 2.0.0
-extend: [base/beet.yaml]
+version: '2.0.0'
 
+extend: [base/beet.yaml]
 pipeline:
   - ec.manual
 
 output: releases
-
-ignore:
-  - releases/*
 
 data_pack:
   load:
     - .
 
 meta:
-  lantern_load:
-    namespace: 'rx.ec'
-    url: https://github.com/rx-modules/EnderChest+/releases
-    dependencies:
-      - name: PlayerDB
-        namespace: rx.pdb
-        url: https://github.com/rx-modules/PlayerDB/releases
-        version: '2.0.0'
+  globals:
     colors:
       - '#aa00ff'
       - '#ff00e6'
 
+  lantern_load:
+    url: https://github.com/rx-modules/EnderChest+/releases
+    dependencies:
+      - name: PlayerDB
+        id: rx.playerdb
+        url: https://github.com/rx-modules/PlayerDB/releases
+        version: '2.0.0'
+
   global:
     item: 'minecraft:ender_chest'
-
-  colors:
-    - '#aa00ff'
-    - '#ff00e6'

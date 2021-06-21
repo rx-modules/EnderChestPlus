@@ -1,35 +1,31 @@
-from typing import Iterable
-from beet import Context, ItemModifier, LootTable, Function
-from nbtlib.tag import List, Compound, String, Byte
-from nbtlib import serialize_tag
-import yaml
-from colour import Color
-import math
 import json
-from itertools import cycle, count, chain
+import math
+from itertools import chain, count, cycle
 from pprint import pprint
+from typing import Iterable
 
+import yaml
+from beet import Context, Function, ItemModifier, LootTable
+from colour import Color
+from nbtlib import serialize_tag
+from nbtlib.tag import Byte, Compound, List, String
 
 LOOT_TABLE = {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:written_book",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{...}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [{"function": "minecraft:set_nbt", "tag": "{...}"}],
+                }
+            ],
         }
-      ]
-    }
-  ]
+    ],
 }
+
 
 def gradient(ctx, title):
     color1, color2 = Color(ctx.meta["colors"][0]), Color(ctx.meta["colors"][1])
@@ -47,25 +43,30 @@ def gradient(ctx, title):
 def table_of_contents(ctx: Context, titles: list[str]):
     content = [
         "",
-        gradient(ctx, ctx.project_name), {"text": " (tm)", "color": "dark_gray", "italic": True}, "\n",
-        {"text": "The storage solution for the modern age", "color":"#845f86", "italic": False}, "\n\n",
-        {"text": "-------------------", "color": "dark_gray"}, "\n\n"
+        gradient(ctx, ctx.project_name),
+        {"text": " (tm)", "color": "dark_gray", "italic": True},
+        "\n",
+        {
+            "text": "The storage solution for the modern age",
+            "color": "#845f86",
+            "italic": False,
+        },
+        "\n\n",
+        {"text": "-------------------", "color": "dark_gray"},
+        "\n\n",
     ]
 
     colors = cycle(("#845f86", "dark_gray"))
     for title, color, page_no in zip(titles, colors, count(2)):
         content.append(
             {
-                "text": f"> {title}\n", 
+                "text": f"> {title}\n",
                 "color": color,
-                "clickEvent": {
-                    "action": "change_page",
-                    "value": page_no
-                },
+                "clickEvent": {"action": "change_page", "value": page_no},
                 "hoverEvent": {
                     "action": "show_text",
-                    "contents": f"Click to navigate to {title}"
-                }
+                    "contents": f"Click to navigate to {title}",
+                },
             }
         )
 
@@ -75,30 +76,26 @@ def table_of_contents(ctx: Context, titles: list[str]):
 
     return content
 
+
 def page_content(ctx: Context, text: dict[str, str]):
     return [
         "",
         {
             "text": "< ",
             "color": "#845f86",
-            "clickEvent": {
-                "action": "change_page",
-                "value": 1
-            },
+            "clickEvent": {"action": "change_page", "value": 1},
             "hoverEvent": {
                 "action": "show_text",
-                "contents": "Click to navigate to the Table of Contents"
+                "contents": "Click to navigate to the Table of Contents",
             },
-            "extra": [
-               *gradient(ctx, text['title'])
-            ]
+            "extra": [*gradient(ctx, text["title"])],
         },
         "\n\n",
         {
-            "text": text['body'],
+            "text": text["body"],
             "color": "#33104a",
-            "italic": True if text['title'] == 'Legal' else False
-        }
+            "italic": True if text["title"] == "Legal" else False,
+        },
     ]
 
 
@@ -112,9 +109,7 @@ def beet_default(ctx: Context):
     root["author"] = String(manual["author"])
     root["title"] = String()
 
-    root["display"]["Name"] = String(json.dumps(gradient(
-        ctx, manual["title"]
-    )))
+    root["display"]["Name"] = String(json.dumps(gradient(ctx, manual["title"])))
 
     lore = [
         {"text": line, "color": "dark_gray", "italic": False} for line in manual["lore"]
@@ -123,16 +118,20 @@ def beet_default(ctx: Context):
 
     root["pages"] = List[String]()
     root["resolved"] = Byte(True)
-    
+
     # table of contents
     content = table_of_contents(ctx, [page["title"] for page in manual["pages"]])
     root["pages"].append(String(json.dumps(content)))
 
     for page in manual["pages"]:
-        root["pages"].append(String(json.dumps(page_content(ctx, page)).replace("\\n", "\n")))
+        root["pages"].append(
+            String(json.dumps(page_content(ctx, page)).replace("\\n", "\n"))
+        )
 
     st = serialize_tag(root)
 
-    LOOT_TABLE['pools'][0]['entries'][0]['functions'][0]['tag'] = st
-    ctx.data['rx.ec:manual'] = LootTable(LOOT_TABLE)
-    ctx.data['rx.ec:manual'] = ItemModifier({"function": "minecraft:set_nbt", "tag": st})
+    LOOT_TABLE["pools"][0]["entries"][0]["functions"][0]["tag"] = st
+    ctx.data["rx.ec:manual"] = LootTable(LOOT_TABLE)
+    ctx.data["rx.ec:manual"] = ItemModifier(
+        {"function": "minecraft:set_nbt", "tag": st}
+    )

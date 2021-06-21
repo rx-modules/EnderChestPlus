@@ -4,6 +4,8 @@
 #> @s: player
 #> On name change, let's our scores and notify the player :)
 
+#!tag #rx.playerdb:api/on_name_change
+
 function rx.playerdb:api/get_self
 
 #> store scores
