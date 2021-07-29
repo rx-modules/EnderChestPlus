@@ -5,3 +5,4 @@ test/
 beet-dev.yaml
 .sublime-*
 pyrightconfig.json
+__pycache__

@@ -28,7 +28,9 @@ LOOT_TABLE = {
 
 
 def gradient(ctx, title):
-    color1, color2 = Color(ctx.meta["colors"][0]), Color(ctx.meta["colors"][1])
+    color1, color2 = Color(ctx.meta["globals"]["colors"][0]), Color(
+        ctx.meta["globals"]["colors"][1]
+    )
 
     first_half = color1.range_to(color2, math.floor(len(title) / 2))
     second_half = color2.range_to(color1, math.ceil(len(title) / 2))
@@ -101,8 +103,6 @@ def page_content(ctx: Context, text: dict[str, str]):
 
 def beet_default(ctx: Context):
     manual = yaml.safe_load((ctx.directory / "resources" / "manual.yaml").read_text())
-
-    color1, color2 = ctx.meta["colors"][0], ctx.meta["colors"][1]
 
     root = Compound()
     root["display"] = Compound()

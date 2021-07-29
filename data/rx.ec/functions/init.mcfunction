@@ -8,10 +8,6 @@
 #define storage rx:temp
 #define storage rx:io
 
-#!set version_major = ctx.project_version.split('.')[0]
-#!set version_minor = ctx.project_version.split('.')[1]
-#!set version_patch = ctx.project_version.split('.')[2]
-
 # objectives
 scoreboard objectives add rx.ec.headDrop minecraft.dropped:minecraft.player_head
 scoreboard objectives add rx.ec.openChest minecraft.custom:open_enderchest
@@ -22,9 +18,9 @@ scoreboard objectives add rx.ec.maxPage dummy
 scoreboard players set $64 rx.int 64
 
 # version
-data modify storage rx:info ec.version.major set value __version_major__
-data modify storage rx:info ec.version.minor set value __version_minor__
-data modify storage rx:info ec.version.patch set value __version_patch__
+{%- for sem in ['major', 'minor', 'patch'] -%}
+data modify storage rx:info ec.version.{{sem}} set value {{ctx.meta.version[sem]}}
+{%- endfor -%}
 
 # schedule tick
 schedule function rx.ec:tick 1t replace
